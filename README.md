@@ -37,20 +37,31 @@ A sleek, modern realtime chat application built with **Next.js**, **Express**, *
 
 ---
 
+
+
 ## 📁 Project Structure
 
 realtime-chat-app/
 │
+
 ├── components/
+
 │ ├── Layout.js
+
 │ └── Chat.js
+
 │
 ├── pages/
+
 │ └── index.js
+
 │
 ├── server.js
+
 ├── .env.example
+
 ├── package.json
+
 └── README.md
 
 
@@ -64,14 +75,22 @@ realtime-chat-app/
 
 git clone https://github.com/shafaq0410/realtime-chat-app.git
 cd realtime-chat-app
+
+
 2️⃣ Install Dependencies
 npm install
+
+
 3️⃣ Configure Environment Variables
 Create a .env file based on .env.example and fill in your Pusher credentials:
 cp .env.example .env
+
+
 4️⃣ Run the App
 npm run dev
 Visit http://localhost:3000 to chat live!
+
+
 
 🔐 Environment Variables (.env)
 env
@@ -81,6 +100,8 @@ PUSHER_APP_SECRET=your_app_secret
 PUSHER_APP_CLUSTER=your_cluster
 NODE_ENV=development
 PORT=3000
+
+
 
 ✨ Screenshots
 💬 Chat View	
@@ -93,6 +114,9 @@ User Entry
 ![image](https://github.com/user-attachments/assets/b328fc7a-28a5-424c-9f6f-5e2047b7e49b)
 
 
+---
+
+
 🧠 Behind the Scenes
 Each message goes through sentiment analysis using Sentiment. Depending on the tone:
 
@@ -102,6 +126,7 @@ Negative → 😢
 
 Neutral → 😐
 
+---
 
 
 🏗️ Future Improvements
@@ -113,6 +138,7 @@ Neutral → 😐
 
 ✅ Emoji picker integration
 
+---
 
 
 💻 Author
