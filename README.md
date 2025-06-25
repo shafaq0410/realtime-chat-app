@@ -74,33 +74,47 @@ realtime-chat-app/
 
 
 git clone https://github.com/shafaq0410/realtime-chat-app.git
+
 cd realtime-chat-app
 
 
 2️⃣ Install Dependencies
+
 npm install
 
 
 3️⃣ Configure Environment Variables
+
 Create a .env file based on .env.example and fill in your Pusher credentials:
+
 cp .env.example .env
 
 
-4️⃣ Run the App
+4️⃣ Run the App -
+
 npm run dev
+
 Visit http://localhost:3000 to chat live!
 
 
 
 🔐 Environment Variables (.env)
 env
+
 PUSHER_APP_ID=your_app_id
+
 PUSHER_APP_KEY=your_app_key
+
 PUSHER_APP_SECRET=your_app_secret
+
 PUSHER_APP_CLUSTER=your_cluster
+
 NODE_ENV=development
+
 PORT=3000
 
+
+---
 
 
 ✨ Screenshots
