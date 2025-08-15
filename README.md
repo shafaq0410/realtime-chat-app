@@ -2,9 +2,9 @@
 
 A sleek, modern realtime chat application built with **Next.js**, **Express**, **Pusher**, and **Sentiment Analysis**. Chat like never before — in real time — with emoji-powered mood detection! 😄😢😐
 
-![Chat Preview] 
+Chat Preview 
 
-![image](https://github.com/user-attachments/assets/bc7f1859-23de-42d0-a511-0255af1bf9a0)
+image(https://github.com/user-attachments/assets/bc7f1859-23de-42d0-a511-0255af1bf9a0)
 
 
 ---
